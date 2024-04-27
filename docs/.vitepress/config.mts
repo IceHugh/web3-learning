@@ -4,6 +4,7 @@ import sidebar from './sidebar'
 export default defineConfig({
   title: 'Web3-Frontend-Learning',
   description: '前端开发',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -15,7 +16,27 @@ export default defineConfig({
     sidebar,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      {
+        icon: 'github',
+        link: 'https://github.com/IceHugh/web3-frontend-learning',
+      },
     ],
+    editLink: {
+      pattern: 'https://github.com/IceHugh/web3-frontend-learning/edit/main/docs/:path',
+      text: 'Edit this page on GitHub',
+    },
+    search: {
+      provider: 'local',
+    },
+    outline: 3,
+  },
+  lastUpdated: true,
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
+    toc: {
+      level: [1, 2],
+    },
   },
 })
