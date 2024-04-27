@@ -114,9 +114,49 @@ const module1 = {
         {
           text: '比特币四种地址类型',
           link: '/btc/introduction/5-1',
-        }
-      ]
-    }
+        },
+        {
+          text: '比特币、闪电网络、Nostr、Nostr Assets协议以及Taproot Assets协议',
+          link: '/btc/introduction/5-2',
+        },
+        {
+          text: '什么是 UTXO？',
+          link: '/btc/introduction/5-3',
+        },
+        {
+          text: '比特币 PSBT（部分签名交易）',
+          link: '/btc/introduction/5-4',
+        },
+        {
+          text: '比特币中 Taproot 和隔离见证（Segwit）',
+          link: '/btc/introduction/5-5',
+        },
+        {
+          text: '比特币脚本语言',
+          link: '/btc/introduction/5-6',
+        },
+        {
+          text: '比特币交易中 RBF',
+          link: '/btc/introduction/5-7',
+        },
+        {
+          text: '比特币开发中常用的两个网站：Mempool 和 Blockstream',
+          link: '/btc/introduction/5-8',
+        },
+        {
+          text: '比特币 TX结构',
+          link: '/btc/introduction/5-9',
+        },
+        {
+          text: '什么是 Ordinals？',
+          link: '/btc/introduction/5-10',
+        },
+        {
+          text: '什么是 Runes 协议？',
+          link: '/btc/introduction/5-11',
+        },
+      ],
+    },
   ],
 }
 

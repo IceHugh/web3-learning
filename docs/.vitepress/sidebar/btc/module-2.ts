@@ -14,10 +14,6 @@ const module1 = {
           text: 'UniSat API 介绍',
           link: '/btc/development/1-2',
         },
-        {
-          text: '比特币 JS 处理相关 npm 库',
-          link: '/btc/development/2-1',
-        },
       ],
     },
     {
