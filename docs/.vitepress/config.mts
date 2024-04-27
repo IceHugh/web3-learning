@@ -2,14 +2,13 @@ import { defineConfig } from 'vitepress'
 import sidebar from './sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Web3-Frontend-Learning',
-  description: '前端开发',
+  title: 'Web3 前端学习',
+  description: '学习、构建、繁荣于 Web3 生态系统',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
       { text: 'BTC', link: '/btc/index' },
     ],
 

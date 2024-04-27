@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "Web3-Frontend-Learning"
-  text: "前端开发"
-  tagline: My great project tagline
+  name: Web3 前端学习
+  text: 解锁 Web3 开发的未来
+  tagline: 学习、构建、繁荣于 Web3 生态系统
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: BTC生态学习
+      link: /btc/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 掌握 ETH 和 EVM 生态系统
+    details: 深入以太坊和 EVM 基础项目的世界，发现 Web3 开发的无限可能性。
+  - title: 构建可扩展和安全的 DApp
+    details: 学习构建快速、安全、可扩展的去中心化应用程序的最佳实践，改变世界。
+  - title: 加入 Web3 社区
+    details: 与志同道合的开发者、企业家和创新者联系，共同塑造 Web3 的未来。
 ---
 
