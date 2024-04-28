@@ -8,6 +8,9 @@ hero:
   tagline: 学习、构建、繁荣于 Web3 生态系统
   actions:
     - theme: brand
+      text: Web3 导航
+      link: https://web3.noalone.xyz/hub
+    - theme: brand
       text: BTC生态学习
       link: /btc/index
 

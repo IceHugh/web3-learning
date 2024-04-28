@@ -28,8 +28,12 @@ export default defineConfig({
       provider: 'local',
     },
     outline: 3,
+    
   },
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://web3-learning.noalone.xyz'
+  },
   markdown: {
     image: {
       lazyLoading: true,
