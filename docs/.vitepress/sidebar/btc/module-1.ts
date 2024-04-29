@@ -155,6 +155,14 @@ const module1 = {
           text: '什么是 Runes 协议？',
           link: '/btc/introduction/5-11',
         },
+        {
+          text: '测试网 Testnet 与 Signet',
+          link: '/btc/introduction/5-12',
+        },
+        {
+          text: '比特币 Gas 及其计算',
+          link: '/btc/introduction/5-13',
+        },
       ],
     },
   ],
