@@ -4,12 +4,43 @@ import sidebar from './sidebar'
 export default defineConfig({
   title: 'Web3 Learning',
   description: '学习、构建、繁荣于 Web3 生态系统',
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/webp',
+        href: '/web3-learning.webp',
+      },
+    ],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:locale', content: 'zh-CN' }],
+    ['meta', { name: 'og:site_name', content: 'Web3 Learning' }],
+    [
+      'meta',
+      {
+        name: 'og:image',
+        content: 'https://web3-learning.noalone.xyz/web3-learning.webp',
+      },
+    ],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:title', content: 'Web3 Learning' }],
+    [
+      'meta',
+      {
+        name: 'twitter:description',
+        content: '学习、构建、繁荣于 Web3 生态系统',
+      },
+    ],
+  ],
   feeds: {
     feed: {
       patterns: ['/blog/**/*.md'],
     },
   },
   themeConfig: {
+    logo: { src: '/web3-learning.webp' },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

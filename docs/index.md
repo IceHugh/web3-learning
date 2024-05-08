@@ -6,11 +6,16 @@ hero:
   name: Web3 Learning
   text: 解锁 Web3 开发的未来
   tagline: 学习、构建、繁荣于 Web3 生态系统
+
+  image:
+    src: /web3-learning.webp
+    alt: Web3 Learning
+  
   actions:
     - theme: brand
       text: Web3 导航
       link: https://web3.noalone.xyz/hub
-    - theme: brand
+    - theme: alt
       text: BTC生态学习
       link: /btc/index
 
