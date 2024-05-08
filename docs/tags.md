@@ -1,0 +1,72 @@
+---
+description: Home helpful guides for the VitePress Default Theme Plus.
+layout: page
+title: Guides
+sidebar: false
+---
+<VPLCollectionPage>
+  <VPLCollectionPageTitle>
+    <template #title>
+      ALL THE THINGS!
+    </template>
+    <template #lead>
+      A mix of different collectons all on one page but organized in different sections!
+    </template>
+  </VPLCollectionPageTitle>
+
+  <VPLCollectionPageTags v-model="tags" />
+  <VPLCollectionItemTags :v-model="tags" />
+  <VPLCollectionPageSection v-if="showGuides">
+    <template #title>
+      Guides
+    </template>
+    <template #lead>
+      Guides are sort of like tutorial adjacent things but with a tighter vibe.
+    </template>
+    <template #items>
+      <VPLCollectionItems
+        :items="guides.pages"
+        :tags="tags"
+      />
+    </template>
+  </VPLCollectionPageSection>
+
+  <VPLCollectionPageSection v-if="showPosts">
+    <template #title>
+      Posts
+    </template>
+    <template #lead>
+      Posts are sort of like a <em>hot-mess</em> of free-for-all anything-goes word-vomit pretending to be prose.
+    </template>
+    <template #items>
+      <VPLCollectionItems
+        more="date"
+        :items="posts.pages"
+        :tags="tags"
+      />
+    </template>
+  </VPLCollectionPageSection>
+</VPLCollectionPage>
+
+<script setup>
+import {computed} from 'vue';
+import {useCollection} from '@lando/vitepress-theme-default-plus';
+import {
+  VPLCollectionItems,
+  VPLCollectionPage,
+  VPLCollectionPageSection,
+  VPLCollectionPageTags,
+  VPLCollectionPageTitle,
+} from '@lando/vitepress-theme-default-plus';
+
+const guides = useCollection('guide');
+const posts = useCollection('post');
+const {hasItems,page, path, pages, tags} = useCollection();
+
+console.log(page);
+console.log(path);
+console.log(pages);
+console.log(tags);
+const showGuides = computed(() => hasItems(guides.pages, tags));
+const showPosts = computed(() => hasItems(posts.pages, tags));
+</script>

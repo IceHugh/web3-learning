@@ -91,7 +91,7 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-home-hero-name-color: transparent;
+  /* --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
     #bd34fe 30%,
@@ -103,7 +103,7 @@
     #bd34fe 50%,
     #47caff 50%
   );
-  --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-image-filter: blur(44px); */
 }
 
 @media (min-width: 640px) {
@@ -123,6 +123,9 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  /* --vp-c-pink-1: #a8b1ff;
+  --vp-c-pink-2: #5c73e7;
+  --vp-c-pink-3: #3e63dd; */
   --vp-custom-block-tip-border: transparent;
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);

@@ -23,3 +23,21 @@ features:
     details: 与志同道合的开发者、企业家和创新者联系，共同塑造 Web3 的未来。
 ---
 
+<style>
+.clip {
+  color: transparent;
+}
+.home-other-stuff {
+  padding: 64px 0px;
+  text-align: center;
+}
+
+@media (min-width: 1290px) {
+  .home-other-stuff {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1152px;
+  }
+}
+
+</style>
