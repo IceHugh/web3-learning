@@ -2,7 +2,7 @@ import { defineConfig } from '@lando/vitepress-theme-default-plus/config'
 import sidebar from './sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Web3 前端学习',
+  title: 'Web3 Learning',
   description: '学习、构建、繁荣于 Web3 生态系统',
   feeds: {
     feed: {

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: Web3 前端学习
+  name: Web3 Learning
   text: 解锁 Web3 开发的未来
   tagline: 学习、构建、繁荣于 Web3 生态系统
   actions:
