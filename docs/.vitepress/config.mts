@@ -45,6 +45,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'BTC', link: '/btc/index' },
+      { text: 'Web3科学家', link: '/wealth/index' },
     ],
 
     sidebar,
