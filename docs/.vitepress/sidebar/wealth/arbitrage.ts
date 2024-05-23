@@ -86,6 +86,50 @@ const arbitrage = {
         },
       ],
     },
+    {
+      text: 'Lesson5: 闪电贷套利与 Aave 和 Uniswap',
+      collapsed: true,
+      items: [
+        {
+          text: '闪电贷和其应用入门',
+          link: '/wealth/arbitrage/5-1',
+        },
+        {
+          text: 'Aave 和 Uniswap 闪电贷机制',
+          link: '/wealth/arbitrage/5-2',
+        },
+        {
+          text: '闪电贷套利策略',
+          link: '/wealth/arbitrage/5-3',
+        },
+        {
+          text: '使用Python实现闪电贷套利',
+          link: '/wealth/arbitrage/5-4',
+        },
+      ],
+    },
+    {
+      text: 'Lesson6: 风险管理和投资组合优化的 Web3 套利**',
+      collapsed: true,
+      items: [
+        {
+          text: '风险管理和投资组合优化入门',
+          link: '/wealth/arbitrage/6-1',
+        },
+        {
+          text: '了解风险 metrics 和投资组合优化技术',
+          link: '/wealth/arbitrage/6-2',
+        },
+        {
+          text: '构建风险管理和投资组合优化系统的 Web3 套利',
+          link: '/wealth/arbitrage/6-3',
+        },
+        {
+          text: '回测和优化风险管理和投资组合优化策略',
+          link: '/wealth/arbitrage/6-4',
+        },
+      ],
+    },
   ],
 }
 
