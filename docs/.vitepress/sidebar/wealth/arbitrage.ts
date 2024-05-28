@@ -109,7 +109,7 @@ const arbitrage = {
       ],
     },
     {
-      text: 'Lesson6: 风险管理和投资组合优化的 Web3 套利**',
+      text: 'Lesson6: 风险管理和投资组合优化的 Web3 套利',
       collapsed: true,
       items: [
         {
@@ -127,6 +127,28 @@ const arbitrage = {
         {
           text: '回测和优化风险管理和投资组合优化策略',
           link: '/wealth/arbitrage/6-4',
+        },
+      ],
+    },
+    {
+      text: 'Lesson7: Web3 套利交易机器人开发与 Python 和 CCXT',
+      collapsed: true,
+      items: [
+        {
+          text: '交易机器人开发与 Python 和 CCXT 入门',
+          link: '/wealth/arbitrage/7-1',
+        },
+        {
+          text: '使用 Python 和 CCXT 构建 Web3 套利交易机器人',
+          link: '/wealth/arbitrage/7-2',
+        },
+        {
+          text: '交易机器人架构和设计模式',
+          link: '/wealth/arbitrage/7-3',
+        },
+        {
+          text: '部署和监控 Web3 套利交易机器人',
+          link: '/wealth/arbitrage/7-4',
         },
       ],
     },
