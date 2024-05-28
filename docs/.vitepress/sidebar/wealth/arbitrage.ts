@@ -152,6 +152,16 @@ const arbitrage = {
         },
       ],
     },
+    {
+      text: 'Lesson8: Web3 套利交易机器人案例',
+      collapsed: true,
+      items: [
+        {
+          text: '2024年，十大最佳加密货币套利交易机器人',
+          link: '/wealth/arbitrage/8-1',
+        },
+      ],
+    },
   ],
 }
 
