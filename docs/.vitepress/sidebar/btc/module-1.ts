@@ -165,7 +165,7 @@ const module1 = {
         },
         {
           text: 'Taproot 交易大小计算指南',
-          link: '/btc/introduction/5-15',
+          link: '/btc/introduction/5-14',
         }
       ],
     },
