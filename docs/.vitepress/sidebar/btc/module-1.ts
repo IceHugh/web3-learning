@@ -163,6 +163,10 @@ const module1 = {
           text: '比特币 Gas 及其计算',
           link: '/btc/introduction/5-13',
         },
+        {
+          text: 'Taproot 交易大小计算指南',
+          link: '/btc/introduction/5-15',
+        }
       ],
     },
   ],
