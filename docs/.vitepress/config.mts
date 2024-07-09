@@ -103,6 +103,7 @@ export default defineConfig({
     hostname: 'https://web3-learning.noalone.xyz',
   },
   markdown: {
+    math: true,
     image: {
       lazyLoading: true,
     },
