@@ -15,7 +15,7 @@ const module1 = {
           link: '/btc/development/1-2',
         },
       ],
-    },
+    },                                              
     {
       text: 'Lesson2: 比特币前端JS库',
       collapsed: true,
