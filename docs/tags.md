@@ -63,10 +63,6 @@ const guides = useCollection('guide');
 const posts = useCollection('post');
 const {hasItems,page, path, pages, tags} = useCollection();
 
-console.log(page);
-console.log(path);
-console.log(pages);
-console.log(tags);
 const showGuides = computed(() => hasItems(guides.pages, tags));
 const showPosts = computed(() => hasItems(posts.pages, tags));
 </script>
